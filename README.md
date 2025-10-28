@@ -18,19 +18,19 @@ Spring Boot 3.5.7, Spring Web, Spring Data JPA, PostgreSQL. Никакой БД-
 
 Все 5 маршрутов работают с корректными статусами:
 
-GET /api/books - список всех книг (200)
-GET /api/books/{id} - получить книгу по id (200/404)
-POST /api/books - создать книгу (201/400)
-PUT /api/books/{id} - обновить книгу (200/404/400)
-DELETE /api/books/{id} - удалить книгу (204/404)
+- GET /api/books - список всех книг (200)
+- GET /api/books/{id} - получить книгу по id (200/404)
+- POST /api/books - создать книгу (201/400)
+- PUT /api/books/{id} - обновить книгу (200/404/400)
+- DELETE /api/books/{id} - удалить книгу (204/404)
 
 ## Модель данных Book
 
-id: Long (PK, авто-генерация)
-title: String (обязательное)
-author: String (обязательное)
-year: Integer (необязательно)
-description: String (необязательно)
+- id: Long (PK, авто-генерация)
+- title: String (обязательное)
+- author: String (обязательное)
+- year: Integer (необязательно)
+- description: String (необязательно)
 
 ## Запуск приложения
 
